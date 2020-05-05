@@ -4,4 +4,6 @@
     <string name="animationsWithMotionLayout">Animations with Motion Layout</string>
     <string name="animatingBasedOnDragEvents">Animating based on Drag Events</string>
     <string name="credits">Vaibhav Grover</string>
+    <string name="modifyingAPath">Modifying a Path</string>
+    <string name="moon">Moon</string>
 </resources>

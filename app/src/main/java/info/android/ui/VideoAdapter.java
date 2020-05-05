@@ -15,11 +15,13 @@ public class VideoAdapter extends BaseAdapter {
     private String packageName;
 
     private Integer[] videoIds = {
-            R.raw.video_1, R.raw.video_2
+            R.raw.video_1, R.raw.video_2,
+            R.raw.video_3
     };
 
     private Class[] intentClasses = {
-            FirstActivity.class, SecondActivity.class
+            FirstActivity.class, SecondActivity.class,
+            ThirdActivity.class
     };
 
     public VideoAdapter(Context context, String packageName) {
