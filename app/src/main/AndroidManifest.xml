@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".FourthActivity"
+            android:label="@string/modifyingAPath"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ThirdActivity"
             android:label="@string/modifyingAPath"
             android:theme="@style/AppTheme">

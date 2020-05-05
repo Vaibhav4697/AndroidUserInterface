@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Describe the animation for activity_third.xml -->
+<!-- Describe the animation for activity_fourth.xml -->
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -13,6 +13,16 @@
         <OnClick
             app:targetId="@id/moon"
             app:clickAction="toggle"/>
+
+        <KeyFrameSet>
+
+            <KeyPosition
+                app:framePosition="50"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.5"/>
+
+        </KeyFrameSet>
 
     </Transition>
 

@@ -16,12 +16,12 @@ public class VideoAdapter extends BaseAdapter {
 
     private Integer[] videoIds = {
             R.raw.video_1, R.raw.video_2,
-            R.raw.video_3
+            R.raw.video_3, R.raw.video_4
     };
 
     private Class[] intentClasses = {
             FirstActivity.class, SecondActivity.class,
-            ThirdActivity.class
+            ThirdActivity.class, FourthActivity.class
     };
 
     public VideoAdapter(Context context, String packageName) {
