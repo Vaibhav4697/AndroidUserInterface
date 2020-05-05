@@ -9,15 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".FirstActivity"
-            android:label="@string/animationsWithMotionLayout"
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/animatingBasedOnDragEvents"
             android:theme="@style/AppTheme">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
-
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/animationsWithMotionLayout"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

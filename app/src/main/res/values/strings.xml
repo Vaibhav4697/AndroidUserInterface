@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">UserInterface</string>
+    <string name="app_name">User Interface</string>
     <string name="star">Star</string>
     <string name="animationsWithMotionLayout">Animations with Motion Layout</string>
+    <string name="animatingBasedOnDragEvents">Animating based on Drag Events</string>
+    <string name="credits">Vaibhav Grover</string>
 </resources>

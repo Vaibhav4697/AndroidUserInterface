@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 public class VideoAdapter extends BaseAdapter {
@@ -16,15 +15,11 @@ public class VideoAdapter extends BaseAdapter {
     private String packageName;
 
     private Integer[] videoIds = {
-            R.raw.video_1, R.raw.video_1,
-            R.raw.video_1, R.raw.video_1,
-            R.raw.video_1, R.raw.video_1
+            R.raw.video_1, R.raw.video_2
     };
 
     private Class[] intentClasses = {
-            FirstActivity.class, FirstActivity.class,
-            FirstActivity.class, FirstActivity.class,
-            FirstActivity.class, FirstActivity.class
+            FirstActivity.class, SecondActivity.class
     };
 
     public VideoAdapter(Context context, String packageName) {
@@ -54,11 +49,10 @@ public class VideoAdapter extends BaseAdapter {
     @Override
     public View getView(final int position, View view, ViewGroup viewGroup) {
         final VideoView videoView = new VideoView(context);
-        videoView.setLayoutParams(new GridView.LayoutParams(500, 500));
+        videoView.setLayoutParams(new GridView.LayoutParams(250, 250));
 
         videoView.setOnPreparedListener(preparedListener);
         videoView.requestFocus();
-//        Toast.makeText(context, "android.resource://" + packageName + "/" + getItem(position), Toast.LENGTH_LONG).show();
         videoView.setVideoPath("android.resource://" + packageName + "/" + getItem(position));
 
         videoView.setOnClickListener(new View.OnClickListener() {
