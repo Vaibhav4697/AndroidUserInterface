@@ -16,12 +16,14 @@ public class VideoAdapter extends BaseAdapter {
 
     private Integer[] videoIds = {
             R.raw.video_1, R.raw.video_2,
-            R.raw.video_3, R.raw.video_4
+            R.raw.video_3, R.raw.video_4,
+            R.raw.video_5, R.raw.video_6
     };
 
     private Class[] intentClasses = {
             FirstActivity.class, SecondActivity.class,
-            ThirdActivity.class, FourthActivity.class
+            ThirdActivity.class, FourthActivity.class,
+            FifthActivity.class, SixthActivity.class
     };
 
     public VideoAdapter(Context context, String packageName) {
@@ -51,7 +53,7 @@ public class VideoAdapter extends BaseAdapter {
     @Override
     public View getView(final int position, View view, ViewGroup viewGroup) {
         final VideoView videoView = new VideoView(context);
-        videoView.setLayoutParams(new GridView.LayoutParams(250, 250));
+        videoView.setLayoutParams(new GridView.LayoutParams(700, 700));
 
         videoView.setOnPreparedListener(preparedListener);
         videoView.requestFocus();
