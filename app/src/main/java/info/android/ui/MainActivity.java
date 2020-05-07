@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private List<String> headings;
+    private List<Video> videos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,18 +20,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView listView = findViewById(R.id.list_view);
-        headings = new ArrayList<>();
+        videos = new ArrayList<>();
 
-        headings.add("Animations with Motion Layout");
-        headings.add("Animating based on Drag Events");
-        headings.add("Modifying a Path");
-        headings.add("Modifying a Path");
-        headings.add("Changing Attributes with Motion");
-        headings.add("Changing Attributes with Motion");
-        headings.add("Changing Attributes with Motion");
-        headings.add("Changing Custom Attributes with Motion");
-        headings.add("Drag Events and Complex Path");
+        videos.add(new Video("Animations with Motion Layout", R.raw.video_1, FirstActivity.class));
+        videos.add(new Video("Animating based on Drag Events", R.raw.video_2, SecondActivity.class));
+        videos.add(new Video("Modifying a Path", R.raw.video_3, ThirdActivity.class));
+        videos.add(new Video("Modifying a Path", R.raw.video_4, FourthActivity.class));
+        videos.add(new Video("Changing Attributes with Motion", R.raw.video_5, FifthActivity.class));
+        videos.add(new Video("Changing Attributes with Motion", R.raw.video_6, SixthActivity.class));
+        videos.add(new Video("Changing Attributes with Motion", R.raw.video_7, SeventhActivity.class));
+        videos.add(new Video("Changing Custom Attributes with Motion", R.raw.video_8, EighthActivity.class));
+        videos.add(new Video("Drag Events and Complex Path", R.raw.video_9, NinthActivity.class));
 
-        listView.setAdapter(new AnimationListAdapter(this, R.layout.animation_list_card, headings));
+        RelativeLayout relativeLayout = findViewById(R.id.main_activity);
+
+        listView.setAdapter(new AnimationListAdapter(this, R.layout.animation_list_card, videos, relativeLayout, getPackageName()));
     }
 }

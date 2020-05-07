@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/cancel_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/cancel"
+        android:contentDescription="@string/cancelButton" />
+
+    <TextView
+        android:id="@+id/heading_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancel_image_view"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading_text_view">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_margin="10dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/left_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:background="@color/secondaryDarkColor"
+            app:srcCompat="@drawable/left" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/right_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:background="@color/secondaryDarkColor"
+            app:srcCompat="@drawable/right" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_layout"
+        android:text="@string/clickAboveToViewTheAnimation"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="15sp" />
+
+</RelativeLayout>

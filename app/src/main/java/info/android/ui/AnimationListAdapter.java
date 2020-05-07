@@ -13,17 +13,21 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class AnimationListAdapter extends ArrayAdapter<String> {
+public class AnimationListAdapter extends ArrayAdapter<Video> {
 
-    private List<String> headings;
     private Context context;
     private Integer resource;
+    private RelativeLayout relativeLayout;
+    private String packageName;
+    private List<Video> videos;
 
-    public AnimationListAdapter(@NonNull Context context, Integer resource, List<String> headings) {
-        super(context, resource, headings);
-        this.headings = headings;
+    public AnimationListAdapter(@NonNull Context context, Integer resource, @NonNull List<Video> videos, RelativeLayout relativeLayout, String packageName) {
+        super(context, resource, videos);
         this.context = context;
         this.resource = resource;
+        this.relativeLayout = relativeLayout;
+        this.packageName = packageName;
+        this.videos = videos;
     }
 
     @NonNull
@@ -37,12 +41,12 @@ public class AnimationListAdapter extends ArrayAdapter<String> {
         TextView headingTextView = animationListCard.findViewById(R.id.heading_text_view);
 
         countTextView.setText(String.valueOf(position + 1).concat("."));
-        headingTextView.setText(headings.get(position));
+        headingTextView.setText(videos.get(position).getHeading());
 
         animationListCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                new VideoLayout(context, relativeLayout, videos, packageName, position);
             }
         });
 

@@ -9,4 +9,6 @@
     <string name="changingAttributesWithMotion">Changing Attributes with Motion</string>
     <string name="changingCustomAttributesWithMotion">Changing Custom Attributes with Motion</string>
     <string name="dragEventsAndComplexPath">Drag Events and Complex Path</string>
+    <string name="cancelButton">Cancel Button</string>
+    <string name="clickAboveToViewTheAnimation">Click above to view the animation!</string>
 </resources>
