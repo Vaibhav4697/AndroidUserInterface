@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         videos.add(new Video("Changing Attributes with Motion", R.raw.video_7, SeventhActivity.class));
         videos.add(new Video("Changing Custom Attributes with Motion", R.raw.video_8, EighthActivity.class));
         videos.add(new Video("Drag Events and Complex Path", R.raw.video_9, NinthActivity.class));
+        videos.add(new Video("Drag Events and Complex Path with Hint", R.raw.video_10, TenthActivity.class));
 
         RelativeLayout relativeLayout = findViewById(R.id.main_activity);
 
