@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".EleventhActivity"
+            android:label="@string/runningMotionWithCode"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".TenthActivity"
             android:label="@string/dragEventsAndComplexPathWithHint"
             android:theme="@style/AppTheme">
