@@ -6,12 +6,12 @@ This repository consist of code for an android application that contain represen
 
 # Video Layout
 
-[![Video Layout]()]{}
+[![Video Layout](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/video_layout.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/Video%20Layout.md)
 
 
 # Menu ListView
 
-[![Menu ListView]()]()
+[![Menu ListView](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/images/menu.jpeg)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/Menu%20ListView.md)
 
 
 # 1. Animations with Motion Layout
