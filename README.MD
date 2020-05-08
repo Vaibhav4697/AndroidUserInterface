@@ -4,6 +4,16 @@ This repository consist of code for an android application that contain represen
 
 **Click on the below GIF animations to view the full documentation for the pareticular animation.
 
+# Video Layout
+
+[![Video Layout]()]{}
+
+
+# Menu ListView
+
+[![Menu ListView]()]()
+
+
 # 1. Animations with Motion Layout
 
 [![Animations with Motion Layout](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/animation_1.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/1.%20Animations%20with%20Motion%20Layout.md)
