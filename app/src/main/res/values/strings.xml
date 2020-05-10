@@ -28,4 +28,5 @@
     <string name="button">Button</string>
     <string name="touchControlledMotionWithChangingCustomAttribute">Touch Controlled Motion with Changing Custom Attribute</string>
     <string name="imageFilterViewTransition">Image Filter View Transition</string>
+    <string name="keyframePosition">Keyframe Position</string>
 </resources>

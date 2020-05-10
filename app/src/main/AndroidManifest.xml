@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".FifteenthActivity"
+            android:label="@string/keyframePosition"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".FourteenthActivity"
             android:label="@string/imageFilterViewTransition"
             android:theme="@style/AppTheme">
