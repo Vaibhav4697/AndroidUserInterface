@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         videos.add(new Video("Drag Events and Complex Path with Hint", R.raw.video_10, TenthActivity.class));
         videos.add(new Video("Running Motion with Code", R.raw.video_11, EleventhActivity.class));
         videos.add(new Video("Touch Controlled Motion", R.raw.video_12, TwelfthActivity.class));
+        videos.add(new Video("Touch Controlled Motion with Changing Custom Attributes", R.raw.video_12, ThirteenthActivity.class));
 
         RelativeLayout relativeLayout = findViewById(R.id.main_activity);
 

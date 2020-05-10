@@ -72,3 +72,7 @@ This repository consist of code for an android application that contain represen
 # 12. Touch Controlled Motion
 
 [![Touch Controlled Motion](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/animation_12.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/12.%20Touch%20Controlled%20Motion.md)
+
+# 13. Touch Controlled Motion with Changing Custom Attributes
+
+[![Touch Controlled Motion with Changing Custom Attributes](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/animation_13.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/13.%20Touch%20Controlled%20Motion%20with%20Changing%20Custom%20Attributes.md)
