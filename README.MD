@@ -69,6 +69,6 @@ This repository consist of code for an android application that contain represen
 [![Running Motion with Code](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/animation_11.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/11.%20Running%20Motion%20with%20Code.md)
 
 
-# 11. Touch Controlled Motion
+# 12. Touch Controlled Motion
 
 [![Touch Controlled Motion](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/animations/animation_12.gif)](https://github.com/Vaibhav4697/AndroidUserInterface/blob/master/documentation/12.%20Touch%20Controlled%20Motion.md)
