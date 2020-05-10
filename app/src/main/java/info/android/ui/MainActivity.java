@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         videos.add(new Video("Touch Controlled Motion with Changing Custom Attributes", R.raw.video_13, ThirteenthActivity.class));
         videos.add(new Video("Image Filter View Transition", R.raw.video_14, FourteenthActivity.class));
         videos.add(new Video("Keyframe Position", R.raw.video_15, FifteenthActivity.class));
+        videos.add(new Video("Keyframe Interpolation", R.raw.video_15, SixteenthActivity.class));
 
         RelativeLayout relativeLayout = findViewById(R.id.main_activity);
 

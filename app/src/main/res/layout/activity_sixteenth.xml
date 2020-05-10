@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixteenthActivity"
+    app:layoutDescription="@xml/activity_sixteenth_screen"
+    app:motionProgress="0.5">
+    
+    <View
+        android:id="@+id/button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_editor_absoluteX="215dp"
+        app:layout_editor_absoluteY="223dp"/>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
