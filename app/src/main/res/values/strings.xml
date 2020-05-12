@@ -30,4 +30,5 @@
     <string name="imageFilterViewTransition">Image Filter View Transition</string>
     <string name="keyframePosition">Keyframe Position</string>
     <string name="keyframeInterpolation">Keyframe Interpolation</string>
+    <string name="keyframeCycle">Keyframe Cycle</string>
 </resources>
